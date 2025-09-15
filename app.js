@@ -34,7 +34,7 @@ async function checkweather(city) {
             weatherIcon.src = "drizzle.png"
         }
         else if(data.weather[0].main == "Mist") {
-            weatherIcon.src = "mMist.png"
+            weatherIcon.src = "mist.png"
         }
         document.querySelector(".error").style.display="none";
     }
@@ -43,3 +43,4 @@ async function checkweather(city) {
 seachbtn.addEventListener("click", () => {
     checkweather(seachbox.value);
 })
+
