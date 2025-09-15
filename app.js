@@ -43,4 +43,3 @@ async function checkweather(city) {
 seachbtn.addEventListener("click", () => {
     checkweather(seachbox.value);
 })
-
